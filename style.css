@@ -1,0 +1,136 @@
+<!-- SITEWIDE STYLES -->
+
+p,li,h1,h2,h3,h4,h5 {
+    font-family: "Roboto Condensed", sans-serif, !important;
+}
+
+.site-title {
+  font-family: "Codystar", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.site-title a:hover {
+  text-decoration: none;
+}
+
+.page-title {
+	color:#393e61;
+	font-size: 1em;
+}
+
+#welcome {
+    background-image: url('images/No Place_07_LA.jpg');
+    background-size: cover;
+    color:white;
+    min-height: 500px;
+}
+
+#home {
+    top: 35%;
+    left:30%;
+    right:30%;
+    position: absolute;
+}
+
+.carousel-inner {
+    padding:1%;
+    min-height: 500px;
+}
+
+.carousel-item {font-family: "Roboto Condensed", sans-serif;
+    font-size:13.5px;
+}
+
+.carousel-caption {
+    background-color:#000000;
+    opacity: 0.7;
+    text-align: left;
+    padding:2%;
+}
+    
+.homeblock {
+    background-color:#000000;
+
+}
+
+.projectslide {
+    background-color:black;
+
+}
+
+.accent {
+    color:#8b0000;
+}
+
+a.active {
+    background-color: #F200C7;
+    color:white;
+}
+
+.nav-link {
+    color:#585050;
+}
+
+ul.nav a:hover { 
+    background-color:#585050;
+    color:white;
+}
+
+.social {
+    width:32px;
+    margin: 0 2%;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  font-family: "Roboto Condensed", sans-serif;
+    font-size:15px;
+    min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+
